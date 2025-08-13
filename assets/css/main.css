@@ -1303,7 +1303,7 @@ section,
 }
 
 .hero .hero-text h1 {
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 800;
   line-height: 1.1;
   margin-bottom: 15px;
@@ -1550,7 +1550,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .profile-card {
+/*.about .profile-card {
   background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--surface-color), var(--accent-color) 5%) 100%);
   border-radius: 2rem;
   padding: 2.5rem;
@@ -1559,7 +1559,7 @@ section,
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 90%);
   position: relative;
   overflow: hidden;
-}
+}*/
 
 .about .profile-card::before {
   content: "";
@@ -1673,6 +1673,7 @@ section,
 
 .about .about-content .section-header {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .about .about-content .section-header .badge-text {
@@ -2396,7 +2397,7 @@ section,
 }
 
 .services .service-header .service-intro .service-heading {
-  font-size: 48px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 700;
   line-height: 1.2;
